@@ -1,0 +1,61 @@
+---
+title: "Shiny App"
+author: "Kamlesh Mishra"
+date: "September 6, 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+## Slides for Shiny App Project
+
+This shiny apps developed using shiny platform. The objective of this apps is to have below requirements:-
+
+  - Some form of input (widget: textbox, radio button, checkbox, ...)
+  - Some operation on the ui input in sever.R
+  - Some reactive output displayed as a result of server calculations
+  - You must also include enough documentation so that a novice user could use your application. 
+  - The documentation should be at the Shiny website itself. Do not post to an external link.
+  
+    
+## Shiny Apps Features & Functions
+
+This is a Shiny App Project that was developed to show the various widgets that can be used to the App.
+
+  - This App have two sections, a sidebar which is on the left of the App and on the right is     main screen that contains the tabs.
+  - The sidebar panel have fours(4) control items.
+  - Title textbox allow user to customize the main page title description.
+  - The second (2) control item allows the user to select dataset
+  - Third item is to controls on how many observatrions will be showed under the Table tab.
+  - The forth control allow the use to select the color of the histogram.
+
+
+## Shiny Apps Project
+
+The shiny apps can be viewed at this page
+https://kamleshm18.shinyapps.io/Shiny_App_Project/
+
+### Shiny Github Repo Project & Code Reproducibility
+
+The code for the shiny apps can be downloaded from the github repo at
+https://github.com/kamleshmishra18/Developing_Data_Product
+
+This repo contains all the code and data making up this solution. The files and folders are the following:
+
+  - README.md
+  - app.R, ui.R and server.R - The shiny app code/presentation
+  - The R Markdown used to create the RStudio Presenter presentation.
+
+
+
+## Samples of information generated
+
+Below are the summary and header generated for the dataset InsectSprays
+
+```{r}
+library(MASS)
+library(datasets)
+summary(Animals)
+```
